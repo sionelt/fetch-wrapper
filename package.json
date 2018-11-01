@@ -1,0 +1,33 @@
+{
+  "name": "fetch-wrapper",
+  "version": "1.0.0",
+  "description": "wrapper around fetch API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sionelt/fetch-wrapper.git"
+  },
+  "author": "@sionelt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sionelt/fetch-wrapper/issues"
+  },
+  "homepage": "https://github.com/sionelt/fetch-wrapper#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-jest": "^21.26.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.0.4",
+    "prettier": "^1.14.3"
+  }
+}
